@@ -21,6 +21,8 @@ At present, the company:
   - Hard to standardize across multiple files and users.
   - Difficult to scale as the business grows.
 
+**NOTE** - This project will **not** use real data sources for privacy reasons. Therefore, the excel sheets will be made up artificially. 
+
 ### Project Goal: Automate and Extend Capabilities
 
 This project aims to:
