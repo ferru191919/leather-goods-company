@@ -89,9 +89,9 @@ estimated_direct_cost_eur =
 ```
 
 -------
-Other materials and shared business expenses are not calculated individually for each order in this first version. Items such as zips, buttons, linings, hardware, electricity, machinery, rent, administration, and other shared operating costs are represented by the `indirect_cost_rate`. This rate is currently 35%, stored in the orders sheets as `indirect_cost_rate`.
+Other materials and shared business expenses are not calculated individually for each order in this first version. Items such as zips, buttons, linings, hardware, electricity, machinery, rent, administration, and other shared operating costs are considered **indirect costs** and represented by the `indirect_cost_rate`. This rate is currently **35%**, stored in the orders sheets as `indirect_cost_rate`.
 
-The indirect cost estimate is calculated as 35% of direct costs:
+**The indirect cost estimate is calculated as 35% of direct costs**:
 
 ```text
 estimated_indirect_cost_eur =
